@@ -81,10 +81,10 @@
                           $yearTotal = number_format($yearTotal, 2);
                           
                           echo "<br><center><h3>My Distance travelled per month is:" . $distanceKilometres . " km</h3></center>";
-                          echo "<center><h3>Gallon of fuel: " . $gallonsFuel . " cm<sup>2</sup></h3></center>";
-                          echo "<center><h3>Money spent on fuel: " . $moneyFuel . " cm<sup>2</sup></h3></center>";
-                          echo "<center><h3> Monthly total is: " . $total . " cm<sup>2</sup></h3></center>";
-                          echo "<center><h3> Yearly total is: " . $yearTotal . " cm</h3></center>";
+                          echo "<center><h3>Gallons of fuel: " . $gallonsFuel . " gallons</h3></center>";
+                          echo "<center><h3> Spent on Fuel: " . $moneyFuel . " cm</h3></center>";
+                          echo "<center><h3> My Cost of Commuting: $ " . $total . "/month</h3></center>";
+                            echo "<center><h3> ($ " . $yearTotal . " /year)</h3></center>";
                         }       
                       ?>
                   </td>

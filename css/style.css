@@ -4,6 +4,18 @@
 * Assign-03-HTML-NameOfProgram
 */
 
+h1 {
+  font-family:monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
 div {
 	
   font-weight: bold;
@@ -32,7 +44,7 @@ table td {
 }
 
 #display-results{
-  background-color: #d8d7f4;
+  background-color: 	hsl(242, 57%, 90%);
 }
 
 
@@ -57,5 +69,13 @@ h3 {
   background-color: #f1f0ff;
   color: #1961a3;
   border-color: #443266;
+  text-align: center;
+}
+
+h2 {
+  border-style: solid;
+  background-color: #e8dffc;
+  color: #a37ef3;
+  border-color: #ba9ff6;
   text-align: center;
 }
