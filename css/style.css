@@ -1,0 +1,61 @@
+/* Created by: Grace S
+* Created on: Apr 2022
+* This CSS file defines the style for index.html
+* Assign-03-HTML-NameOfProgram
+*/
+
+div {
+	
+  font-weight: bold;
+  color: #050505;
+  margin: 5px;
+}
+
+table td {
+ height: 475px;
+ width: 475px;
+ vertical-align:top;
+ text-align:center;
+}
+
+.column {
+  float: center;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  float: center;
+}
+
+#display-results{
+  background-color: #d8d7f4;
+}
+
+
+body {
+  background-color: rgb(195, 195, 229);
+}
+
+h1 {
+  background-color: #443266;
+  color: #f1f0ff;
+  padding: 40px;
+  text-align: center;
+}
+
+h1 {
+  font-family:Monospace;
+  font-size: 30px;
+}
+
+h3 {
+  border-style: solid;
+  background-color: #f1f0ff;
+  color: #1961a3;
+  border-color: #443266;
+  text-align: center;
+}
