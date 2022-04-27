@@ -28,7 +28,7 @@
 			echo "Commute Cost Calculator";?></h1></center>
 
       <?php
-        echo '<center><img src= "./images/surface_area_rectangular_prism.jpg" alt="area" width="55%" height="auto"></center>';
+        echo '<center><img src= "./images/Commute.jpg" alt="commute" width="55%" height="auto"></center>';
       ?>
 
       <center>
@@ -53,8 +53,6 @@
                     <br>
                     <br>
                     Fuel Price per gallon ($): <input type="float" name="fuel">
-                    <br>
-                    <br>
                     <br>
                     <br>
                       <input type="submit" name="submit" value="Calculate Cost" />  
