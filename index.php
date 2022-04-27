@@ -26,7 +26,6 @@
     <!-- PHP echo to print the html to the page -->
     <center><h1><?php 
 			echo "Commute Cost Calculator";?></h1></center>
-    <center><p><?php echo "Is your room in need of a painting job? Are the floors old? Here is a calculator JUST RIGHT for YOU!";?></p></center>
 
       <?php
         echo '<center><img src= "./images/surface_area_rectangular_prism.jpg" alt="area" width="55%" height="auto"></center>';
@@ -35,9 +34,9 @@
       <center>
         <h2><?php echo "Enter Inputs Here!";?></h2>
       </center>
-                                                    
-        
+                                                       
         <!-- Buttons and Text Field -->
+        <center>
           <table>
             <tr>
               <td>
@@ -73,7 +72,7 @@
                           
                           $distanceKilometres = ($workingDays * $dailyCommute);                   
                           $gallonsFuel = ($distanceKilometres / $kilometresGallon);
-                          $moneyFuel = (($fuel * $workingDays)/$kilometresGallon);
+                          $moneyFuel = (($fuel * $distanceKilometres)/$kilometresGallon);
                           $total = ($payement + $moneyFuel + $parking);
                           $yearTotal = ($total * 12);
                             
@@ -101,6 +100,7 @@
                 </td>
               </tr>
             </table>
+          </center>
     
                 
         <!-- Calculations for area -->
